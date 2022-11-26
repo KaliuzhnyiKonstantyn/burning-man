@@ -1,0 +1,63 @@
+.hero {
+    background-image: url(img/header-bg.jpg);
+    height: 900px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 215px 0;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(img/logo.svg);
+    width: 31px;
+    height: 48px;
+    display: block;
+    background-position: center;
+    background-size: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+
+    font-family: 'Anton';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.contact a {
+    font-size: 17px;
+    font-family: 'Anton';
+    color: #FFFFFF;
+}
+
+.header-text {
+    height: 257px;
+    margin: 215px;
+
+}
+
+.subtitle {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 100px;
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    font-size: 17px;
+    width: 238px;
+    height: 57px;
+    margin-top: 47px;
+    border: 1px solid #FFFFFF;
+}
