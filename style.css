@@ -5,7 +5,6 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
     padding: 57px 215px 0;
     align-items: center;
 }
@@ -19,6 +18,10 @@
     background-size: 100%;
 }
 
+.navigation {
+    margin-left: 69px;
+}
+
 .menu {
     display: flex;
     gap: 40px;
@@ -29,6 +32,10 @@
     font-family: 'Anton';
     font-size: 14px;
     color: #FFFFFF;
+}
+
+.contact {
+    margin-left: 600px;
 }
 
 .contact a {
@@ -44,20 +51,68 @@
 }
 
 .subtitle {
+    font-family: 'Anton';
     font-size: 30px;
     color: #FFFFFF;
 }
 
 .title {
+    font-family: 'Anton';
     font-size: 100px;
     color: #FFFFFF;
 }
 
 .button {
+    font-family: 'Anton';
     color: #FFFFFF;
     font-size: 17px;
     width: 238px;
     height: 57px;
     margin-top: 47px;
     border: 1px solid #FFFFFF;
+}
+
+.about {
+    width: 1169px;
+    margin: 113px auto 0;
+}
+
+.content {
+    width: 564px;
+    text-align: justify;
+    margin: 0 302px;
+}
+
+.about-title {
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+.about-subtitle {
+    font-family: 'Anton';
+    font-size: 25px;
+    color: #000000;
+    margin: 10px 0 19px;
+}
+
+.about-img {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+footer {
+    height: 49px;
+}
+
+.footer-text {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    display: flex;
+    margin: 26px 0 80px 175px;
+    gap: 67px;
+    color: #000000;
 }
