@@ -1,6 +1,7 @@
 .hero {
     background-image: url(img/header-bg.jpg);
-    height: 900px
+    background-size: contain;
+    height: 55.2vw;
 }
 
 .header {
@@ -35,7 +36,7 @@
 }
 
 .contact {
-    margin-left: 600px;
+    margin-left: auto;
 }
 
 .contact a {
@@ -46,7 +47,7 @@
 
 .header-text {
     height: 257px;
-    margin: 215px;
+    padding: 215px;
 
 }
 
@@ -73,14 +74,14 @@
 }
 
 .about {
-    width: 1169px;
+    max-width: 1169px;
     margin: 113px auto 0;
 }
 
 .content {
     width: 564px;
     text-align: justify;
-    margin: 0 302px;
+    margin: auto;
 }
 
 .about-title {
@@ -98,10 +99,16 @@
     margin: 10px 0 19px;
 }
 
-.about-img {
+.about-drives,
+.about-rebuilding {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.about-gallery {
     display: flex;
     gap: 30px;
-    margin-top: 10px;
+    margin: 11px auto 0;
 }
 
 footer {

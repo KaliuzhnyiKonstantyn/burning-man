@@ -1,0 +1,20 @@
+@media (width < 1230px) {
+    .header-text {
+        padding-top: 5vw;
+    }
+
+    .about-gallery {
+        width: 570px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (width < 960px) {
+    .header {
+        padding: 30px 30px 0;
+    }
+
+    .header-text {
+        padding: 215px;
+    }
+}
